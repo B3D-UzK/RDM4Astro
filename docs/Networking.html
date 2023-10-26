@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.433">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>RDM 4 Astro – networking</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">RDM 4 Astro</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html" rel="" target="">
+ <span class="menu-text">RDM 4 Astro</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-for-research-project" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+ <span class="menu-text">For Research Project</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-for-research-project">    
+        <li>
+    <a class="dropdown-item" href="./DataPolicies.html" rel="" target="">
+ <span class="dropdown-text">Data Policies</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./Stakeholders.html" rel="" target="">
+ <span class="dropdown-text">Stakeholders</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./FundingAgencies.html" rel="" target="">
+ <span class="dropdown-text">Funding Agencies</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./DataOwnership.html" rel="" target="">
+ <span class="dropdown-text">Data Ownership</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./Networking.html" rel="" target="">
+ <span class="dropdown-text">Networking</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-for-research" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+ <span class="menu-text">For Research</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-for-research">    
+        <li>
+    <a class="dropdown-item" href="./DataManagement.html" rel="" target="">
+ <span class="dropdown-text">Data Management</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./ELabNotebook.html" rel="" target="">
+ <span class="dropdown-text">E-Lab Notebook</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./BestPractiesRDM.html" rel="" target="">
+ <span class="dropdown-text">Best Practies in RDM</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./SharingData.html" rel="" target="">
+ <span class="dropdown-text">Sharing Data</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./Archiving.html" rel="" target="">
+ <span class="dropdown-text">Archiving</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./Training.html" rel="" target="">
+ <span class="dropdown-text">Training</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./FAIR Astro.html" rel="" target="">
+ <span class="dropdown-text">FAIR in Astro</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./survey.html" rel="" target="">
+ <span class="menu-text">FAIR Survey</span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#networking-and-consortium" id="toc-networking-and-consortium" class="nav-link active" data-scroll-target="#networking-and-consortium">Networking and Consortium</a>
+  <ul class="collapse">
+  <li><a href="#nfdi" id="toc-nfdi" class="nav-link" data-scroll-target="#nfdi">NFDI</a>
+  <ul class="collapse">
+  <li><a href="#punch4nfdi" id="toc-punch4nfdi" class="nav-link" data-scroll-target="#punch4nfdi">PUNCH4NFDI</a></li>
+  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section">Section</a></li>
+  </ul></li>
+  <li><a href="#erum" id="toc-erum" class="nav-link" data-scroll-target="#erum">ERUM</a></li>
+  <li><a href="#helmholtz" id="toc-helmholtz" class="nav-link" data-scroll-target="#helmholtz">Helmholtz</a>
+  <ul class="collapse">
+  <li><a href="#dma-data-management-and-analysis" id="toc-dma-data-management-and-analysis" class="nav-link" data-scroll-target="#dma-data-management-and-analysis">DMA (Data Management and Analysis)</a></li>
+  <li><a href="#hmc-helmholtz-metadata-collaboration" id="toc-hmc-helmholtz-metadata-collaboration" class="nav-link" data-scroll-target="#hmc-helmholtz-metadata-collaboration">HMC (Helmholtz Metadata Collaboration)</a></li>
+  </ul></li>
+  <li><a href="#data-project-with-rdm" id="toc-data-project-with-rdm" class="nav-link" data-scroll-target="#data-project-with-rdm">Data Project with RDM</a>
+  <ul class="collapse">
+  <li><a href="#big-bang-to-big-data-b3d" id="toc-big-bang-to-big-data-b3d" class="nav-link" data-scroll-target="#big-bang-to-big-data-b3d">Big Bang to Big Data (B3D)</a></li>
+  <li><a href="#sfb-1601" id="toc-sfb-1601" class="nav-link" data-scroll-target="#sfb-1601">SFB 1601</a></li>
+  </ul></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+
+<section id="networking-and-consortium" class="level1">
+<h1>Networking and Consortium</h1>
+<section id="nfdi" class="level2">
+<h2 class="anchored" data-anchor-id="nfdi">NFDI</h2>
+<section id="punch4nfdi" class="level3">
+<h3 class="anchored" data-anchor-id="punch4nfdi">PUNCH4NFDI</h3>
+<p>PUNCH4NFDI is a consortium within the National Research Data Infrastructure (NFDI) of Germany. It represents the fields of particle, astro-, astroparticle, hadron, and nuclear physics, encompassing about 9,000 scientists from universities, the Max Planck Society, the Leibniz Association, and the Helmholtz Association in Germany[1][5].</p>
+<p>The consortium’s primary goal is to establish a federated and “FAIR” science data platform, offering the infrastructures and interfaces necessary for the access to and use of data and computing resources of the involved communities and beyond. “FAIR” stands for Findable, Accessible, Interoperable, and Reusable, indicating that the corresponding data sets should be easy to find, easily accessible, linkable, and reusable[1][4].</p>
+<p>PUNCH4NFDI is organized into several task areas, which are key to effective collaboration within the consortium and with other consortia within the NFDI. These task areas include the grant applicant DESY, FIAS, and 18 other funding recipients. It also includes 22 partners from the Helmholtz Association, the Max Planck Society, the Leibniz Association, and universities, such as Goethe University[4].</p>
+<p>The consortium’s work focuses on addressing the fundamental constituents of matter and their interactions, as well as their role in the development of the largest structures in the universe - stars and galaxies. The achievements of PUNCH science range from the discovery of the Higgs boson, the installation of a 1 cubic kilometre particle detector for neutrino detection in the Antarctic ice, the detection of the quark-gluon plasma in heavy-ion collisions, to the first picture ever of the black hole at the heart of the Milky Way[1][5].</p>
+<p>PUNCH4NFDI also offers services for the efficient scientific exploitation of research data. In doing so, it collaborates closely with its European and international partners at the forefront of research in scientific data management[1].</p>
+<p>The consortium organizes various events and workshops, such as the “ErUM-Data-Hub: Workshop on Inverse Problems” and “Radio 2023”. These events are aimed at fostering collaboration and knowledge exchange within the scientific community[2].</p>
+<p>In terms of governance, an Executive Board with representatives from the PUNCH community oversees PUNCH4NFDI. A Management Board, including task area and work package leaders, coordinates and monitors progress and resource allocation/usage. An external Science Advisory Committee of physicists and computer scientists provides advice on ongoing and future developments. An elected User Committee ensures feedback and input from the user side regarding the scientific directions of the project and the services offered. An Infrastructure Control Board is responsible for synchronizing the top-level requirements and deliverables with the national and international data providers[7].</p>
+</section>
+<section id="section" class="level3">
+<h3 class="anchored" data-anchor-id="section">Section</h3>
+<p>The National Research Data Infrastructure (NFDI) is a German initiative designed to systematically manage scientific and research data, provide long-term data storage, backup and accessibility, and network the data both nationally and internationally. The NFDI is developed step by step and science-oriented with services available to researchers from various disciplines, institutions, and federal states.</p>
+<p>Within the NFDI, there are specific sections where association members work together to develop cross-consortium standards, metadata standards, and formats. These sections are legally dependent departments of the NFDI Association, and they work on cross-sectional topics across the boundaries of the consortia. The establishment of these sections is a strategy-led process initiated by the NFDI Directorate and the NFDI Consortium Assembly.</p>
+<p>Five sections have been established:</p>
+<ol type="1">
+<li>Common Infrastructures (section-infra)</li>
+<li>Ethical, Legal and Social Aspects (section-ELSA)</li>
+<li>(Meta)data, Terminologies, Provenance (section-metadata)</li>
+<li>Training &amp; Education (section-edutrain)</li>
+<li>Industry Engagement (section-industry) [1]</li>
+</ol>
+<p>Each section focuses on different aspects of research data management. For instance, the (Meta)data, Terminologies, Provenance section supports processes of the NFDI consortia in jointly developing and establishing common data and metadata standards as a foundation for effective reuse of research data in accordance with FAIR principles. This section also addresses issues of (meta)data harmonization, discoverability of data, general data and metadata standards, format conversions, and persistent identifier systems.</p>
+<p>The Training &amp; Education section, on the other hand, provides an overview of various training materials and further training measures/events in research data management in all disciplines in German-speaking countries.</p>
+<p>The NFDI is governed by a Board of Trustees, a Scientific Senate, and a Directorate. The Board of Trustees is the administrative-strategic supervisory body of the NFDI Association. The Scientific Senate is the central strategic body of the NFDI, advising on all fundamental matters relating to the ongoing development of the national research data infrastructure. The Directorate, located in Karlsruhe, consists of a full-time director and a managing office. The Directorate coordinates the work and activities of NFDI consortia on cross-disciplinary topics.</p>
+</section>
+</section>
+<section id="erum" class="level2">
+<h2 class="anchored" data-anchor-id="erum">ERUM</h2>
+<p>ErUM-Data-Hub, funded by the Federal Ministry of Education and Research (BMBF), is a central networking and transfer office for the digital transformation in the exploration of universe and matter (ErUM). The main aims of the ErUM-Data-Hub are to network ErUM communities, identify and exploit synergies in ErUM-Data-projects in the field of digitalization, communicate research results to target groups, and facilitate knowledge and innovation transfer. Additionally, the ErUM-Data-Hub provides a diversified further education offer in the field of digital competence[1].</p>
+<p>ErUM, which stands for “Erforschung von Universum und Materie,” involves about 20,000 scientists in Germany who are engaged in the exploration of the universe and matter using large-scale equipment. German ErUM research is organized in 8 ErUM committees, which coordinate and represent the interests of the different research areas[1].</p>
+<p>As part of the ErUM-Data Plan of Action, the ErUM Data Hub pursues the overarching goal of digital transformation in fundamental ErUM-Pro research. In close coordination with the ErUM communities, the Hub implements the strategic measures of the ErUM Data Action Plan[1].</p>
+<p>The ErUM-Data-Hub also organizes various events and workshops, such as the “Deep Learning School ‘Basic Concepts’” aimed at deep-learning starters from all ErUM communities who have a basic knowledge of physics[4].</p>
+<p>In terms of research, progress in fundamental research on universe and matter (ErUM) is made by studying structures at smaller and smaller scales. The high resolution of modern instruments in particle, hadron and nuclear, and astroparticle physics results in huge amounts of research data. To address the challenge of increasing data rates and volumes, 17 partners from universities and research centers joined forces in the BMBF funded ErUM Data pilot project Innovative Digital Technologies for Research on Universe and Matter[2].</p>
+</section>
+<section id="helmholtz" class="level2">
+<h2 class="anchored" data-anchor-id="helmholtz">Helmholtz</h2>
+<section id="dma-data-management-and-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="dma-data-management-and-analysis">DMA (Data Management and Analysis)</h3>
+<p>Helmholtz DMA, or Data Management and Analysis, is a research initiative within the Helmholtz-Zentrum Dresden-Rossendorf (HZDR). The primary objective of Helmholtz DMA is the implementation of a comprehensive digitization strategy for the Research Field MATTER. This involves the development, application, provision, and integration of innovative digital solutions for handling and analyzing the extreme volumes and rates of complex data coming from machines, experiments, and simulations. The initiative also focuses on the research and application of artificial intelligence for knowledge extraction from experiments and simulations, and the application of frontier technologies such as exascale computing and quantum computing to model complex states of matter[1][4].</p>
+<p>Helmholtz DMA is strongly aligned with the overall activities of the topic, with strong integration with the activities in the topic “Accelerator Research and Development” and the topic “Matter – Dynamics, Mechanisms and Control” in the program MML[1]. The DMA initiative also creates synergies in Matter between Helmholtz Centers &amp; Facilities, Research Programs (MU,MML,MT), and Science Domains. It develops open, shareable solutions for Matter, including open source, modular solutions, open standards, professional, industry-grade software development, and F.A.I.R. Data[4].</p>
+<p>In addition to its research activities, Helmholtz DMA also organizes various events and workshops, such as the “Research Data Management - Experts Workshop. Synergies between NFDI (including DAPHNE4NFDI), ErUM-Data and Helmholtz-DMA” that took place in Bonn in March 2023[3].</p>
+</section>
+<section id="hmc-helmholtz-metadata-collaboration" class="level3">
+<h3 class="anchored" data-anchor-id="hmc-helmholtz-metadata-collaboration">HMC (Helmholtz Metadata Collaboration)</h3>
+<p>The Helmholtz Metadata Collaboration (HMC) is an initiative within the Helmholtz Association that aims to promote the qualitative enrichment of research data through metadata. HMC develops and implements novel concepts and technologies for sustainable handling of research data through high-quality metadata. Its main goal is to make the depth and breadth of research data produced by Helmholtz Centres findable, accessible, interoperable, and reusable (FAIR) for the whole science community[1].</p>
+<p>HMC is organized into several hubs, each focusing on a specific research field. These hubs pool scientific expertise on metadata and provide advice and infrastructure services for storing, reusing, and exchanging metadata. The work of HMC is always embedded in the national and international context, and it aims to keep research data “alive” by making it accessible and usable to interested parties in various disciplines[6].</p>
+</section>
+</section>
+<section id="data-project-with-rdm" class="level2">
+<h2 class="anchored" data-anchor-id="data-project-with-rdm">Data Project with RDM</h2>
+<section id="big-bang-to-big-data-b3d" class="level3">
+<h3 class="anchored" data-anchor-id="big-bang-to-big-data-b3d">Big Bang to Big Data (B3D)</h3>
+<p>The B3D project is an interdisciplinary collaboration between universities and research institutions in North Rhine-Westphalia (NRW), Germany. It aims to create a prosperous network of experts in astrophysics and data science. The project uses powerful analysis and visualization techniques, sustainable technology, and infrastructure to develop solutions for the upcoming challenges of the next generation of astronomical observatories. This is done in close collaboration with other leading academic and industrial partners[2].</p>
+<p>One of the main goals of the B3D project is to generate synergies between different areas of research and to provide a joint research-oriented training program in future technologies that can be applied to astronomical research and beyond[2]. The project also aims to develop new measures for the qualification of young scientists[3].</p>
+<p>A central component of the B3D project is the development of innovative traversers using artificial intelligence and machine learning. These tools are used to systematically manage and analyze the immense flood of data to ensure better understanding[3].</p>
+<p>In terms of Research Data Management (RDM), the B3D project is a prime example of how RDM principles can be applied to handle and analyze large volumes of data in a scientific context. Effective RDM is a key component of research integrity and reproducible research, and its importance is increasingly recognized in data-intensive fields like radio astronomy[6].</p>
+</section>
+<section id="sfb-1601" class="level3">
+<h3 class="anchored" data-anchor-id="sfb-1601">SFB 1601</h3>
+<p>SFB 1601 is a collaborative research center that focuses on the study of the interstellar medium, star formation, and the evolution of galaxies. The project Inf - SFB 1601: RDM services and research product exchange is a part of this collaborative research center and aims to establish an interconnected infrastructure that ensures the documentation, preservation, and quality assessment of data and procedures. This infrastructure allows project partners to select and use the RDM services most suitable for their own needs, exchange research products (data, procedures, code, etc.) efficiently and transparently, and make all relevant scientific data accessible within the CRC and to the astronomical community as a whole.</p>
+<p>The CRC research is based on four pillars: instrumentation, observations, 3D simulations, and laboratory astrophysics. This implies data and workflows of different types and specifications, which require different research data management (RDM) and research software management (RSM) solutions. The project aims to cover the gaps in RDM within the four pillars that were identified in the needs assessment and classified into three categories:</p>
+<ol type="1">
+<li><p>Documentation &amp; legal aspects,</p></li>
+<li><p>RDM/RSM support along the data-life cycle,</p></li>
+<li><p>Skills development &amp; Cooperation.</p></li>
+</ol>
+
+
+</section>
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
