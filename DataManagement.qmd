@@ -1,0 +1,79 @@
+## **Understanding Data Management**
+
+### Why Manage Data?
+
+-   Data management supports long-term preservation, access, and use of data
+
+-   Activities of data management include planning, documenting, formatting, storing, anonymizing, and controlling access to data
+
+-   Managing data helps researchers optimize the use of data, collaborate with other researchers, and answer additional questions in the future
+
+-   Data management is important for responsible research conduct and meeting requirements from funding agencies, journal publishers, and research institutions
+
+-   Data management sustains the value of data and increases transparency in research projects
+
+## **What Are Data?**
+
+### Research Data Defined
+
+-   The fundamental question of the course is what are data, and different organizations have tackled it resulting in various definitions.
+
+-   Data are different for various disciplines and contexts, and there are multiple types of data in an array of contexts, including numeric and textual data, biological samples, and physical collections.
+
+-   Research data and associated researcher materials should be distinguished, and some of them may be required alongside the data to understand them.
+
+-   The most important concept in the entire course is understanding data in the context of the research data life cycle, from project planning to archiving that data as a research output after the project period has ended.
+
+-   Key concepts in these definitions include validity, data sharing among the community, heterogeneity, and contextualization within research communities.
+
+### Types of Data and Metadata
+
+-   Types of data include numeric/tabular data, samples (e.g. DNA, blood), physical collections (e.g. plant specimens), software programs/code, databases, algorithms, models, and geodatabases.
+
+-   Background data provides contextual information for analysis and includes questionnaires, code books, and descriptions of methodologies.
+
+-   Research products built on data include reports, conference posters, articles, white papers, books, websites, and blogs.
+
+-   Metadata is structured information that describes, explains, locates, or represents something else (in this case, research data).
+
+-   Minimum metadata elements include who created the data, when it was created/published, and a descriptive name for the dataset. A unique identifier is also necessary to locate the data.
+
+## **Data Management Planning**
+
+### Introduction to Data Management Plans
+
+-   Data management is important in the research life cycle.
+
+-   A data management plan (DMP) is a formal document that outlines data management strategies during and after a research project.
+
+-   Many funding agencies require grantees to submit a DMP as part of the proposal package.
+
+-   Writing a comprehensive DMP can encourage researchers to think carefully about data management needs.
+
+-   The transparency and openness of publicly funded research data requires it to be discoverable, accessible, and reusable to the public.
+
+-   A well-managed data plan can provide a greater return on investment and benefits for verification, reduction of scientific fraud, promotion of new research, resources for training new researchers, and discouraging unintentional redundancy in research.
+
+### Data Management Plan Content
+
+-   A data management plan (DMP) should describe all major aspects of data management throughout the research life cycle.
+
+-   The Digital Curation Center provides a checklist for a data management plan with questions that should be addressed in the DMP.
+
+-   The checklist includes questions such as: what data will you collect or create? How will the data be collected or created? What metadata documentation will accompany the data? How will you manage ethical and legal issues related to data ownership, privacy, and copyright? How will you store and backup the data? How will you manage access and security? Which data should be retained, shared, and/or preserved? What is the long-term preservation plan for the dataset? How will you share the data? Who will be responsible for data management? What resources will you require to implement your plan?
+
+-   The DMP should justify the data format choice and include storage implications due to the format or volume of the data.
+
+-   The DMP should describe the data collection methods, organizing data files, applying version control, and implementing quality assurance protocols.
+
+-   The DMP should identify provisions for protecting the confidentiality of human participants if the project involves research with human subjects.
+
+-   The DMP should identify the owner of the data and discuss permissions with the data producer if third-party data is being reused.
+
+-   The DMP should include provisions for systematic backups of the data files and describe security measures in detail.
+
+-   The DMP should identify the repository to be used to archive the data and plans to prepare and document the data for long-term preservation.
+
+-   The DMP should identify the mechanism for sharing the data and any restrictions required for data sharing.
+
+-   The DMP should identify who will oversee the implementation of the data management plan and what resources will be required for data management tasks and long-term preservation.

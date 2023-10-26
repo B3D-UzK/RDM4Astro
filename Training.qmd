@@ -1,0 +1,29 @@
+## PUNCH4NFDI
+
+PUNCH4NFDI, the NFDI consortium of particle, astro-, astroparticle, hadron, and nuclear physics, offers various types of Research Data Management (RDM) training, including workshops, online courses, and documentation.
+
+Workshops: PUNCH4NFDI organizes workshops on various topics. For instance, in June 2023, three workshops were organized in collaboration with PUNCH4NFDI, covering topics such as ILDG, SciTrace, and FPGAs. They also held their first-ever workshop on use cases in the NFDI, presented by Physical Sciences and organized by NFDI4Chem, NFDI4Cat, DAPHNE4NFDI, and FAIRmat.
+
+Online Courses: PUNCH4NFDI also offers online courses as part of their RDM training. This is mentioned in their consortium proposal, where they discuss the mitigation of certain challenges through the offering of online courses.
+
+Documentation: PUNCH4NFDI provides documentation and guides as part of their RDM training. This is evident from their consortium proposal, where they discuss the provision of user and group-specific documentation.
+
+In addition to these, PUNCH4NFDI also collaborates with its European and international partners at the forefront of research in scientific data management, which could provide further opportunities for RDM training.
+
+## C³RDM
+
+The Cologne Competence Center for Research Data Management (C³RDM) offers comprehensive support and advice on research data management (RDM) throughout all phases of a research project. This includes the development of a data management plan as part of the application process, support in finding suitable repositories, technical storage options, and the publication of research data. In addition to workshops and training courses, C³RDM also offers personal and individual consultations in institutes, subject groups, and working groups.
+
+For online courses and resources, there are several options available. The Research Data Management Librarian Academy (RDMLA) is a free online professional development program that focuses on the essential knowledge and skills needed to collaborate effectively with researchers on data management. The curriculum covers topics such as the foundations of research data management (RDM), research culture, advocating and marketing for RDM services in libraries, project management, and an overview of research data management tools.
+
+https://fdm.uni-koeln.de/en/c3rdm-team
+
+## MANTRA
+
+The MANTRA Research Data Management (RDM) Training is a free online course designed for researchers or others who manage digital data as part of their research projects. The course is hosted by the University of Edinburgh and covers various aspects of RDM, including data management planning, organizing data, file formats and transformation, documentation, metadata, citation, storage and security, protecting sensitive data, sharing, preservation, and licensing.
+
+The course consists of seven interactive modules, along with a set of data handling tutorials that provide practical exercises using software analysis packages such as SPSS, R, ArcGIS, and NVivo. 
+
+Each module takes around 20 minutes to complete, allowing learners to proceed at their own pace. The course is designed to be accessible to researchers from various disciplines and provides training on data management following the key stages of any research project.
+
+To access the MANTRA RDM training, visit the University of Edinburgh's MANTRA website at [https://mantra.ed.ac.uk](https://mantra.ed.ac.uk%5B1).

@@ -1,0 +1,91 @@
+# Networking and Consortium
+
+## NFDI
+
+### PUNCH4NFDI
+
+PUNCH4NFDI is a consortium within the National Research Data Infrastructure (NFDI) of Germany. It represents the fields of particle, astro-, astroparticle, hadron, and nuclear physics, encompassing about 9,000 scientists from universities, the Max Planck Society, the Leibniz Association, and the Helmholtz Association in Germany\[1\]\[5\].
+
+The consortium's primary goal is to establish a federated and "FAIR" science data platform, offering the infrastructures and interfaces necessary for the access to and use of data and computing resources of the involved communities and beyond. "FAIR" stands for Findable, Accessible, Interoperable, and Reusable, indicating that the corresponding data sets should be easy to find, easily accessible, linkable, and reusable\[1\]\[4\].
+
+PUNCH4NFDI is organized into several task areas, which are key to effective collaboration within the consortium and with other consortia within the NFDI. These task areas include the grant applicant DESY, FIAS, and 18 other funding recipients. It also includes 22 partners from the Helmholtz Association, the Max Planck Society, the Leibniz Association, and universities, such as Goethe University\[4\].
+
+The consortium's work focuses on addressing the fundamental constituents of matter and their interactions, as well as their role in the development of the largest structures in the universe - stars and galaxies. The achievements of PUNCH science range from the discovery of the Higgs boson, the installation of a 1 cubic kilometre particle detector for neutrino detection in the Antarctic ice, the detection of the quark-gluon plasma in heavy-ion collisions, to the first picture ever of the black hole at the heart of the Milky Way\[1\]\[5\].
+
+PUNCH4NFDI also offers services for the efficient scientific exploitation of research data. In doing so, it collaborates closely with its European and international partners at the forefront of research in scientific data management\[1\].
+
+The consortium organizes various events and workshops, such as the "ErUM-Data-Hub: Workshop on Inverse Problems" and "Radio 2023". These events are aimed at fostering collaboration and knowledge exchange within the scientific community\[2\].
+
+In terms of governance, an Executive Board with representatives from the PUNCH community oversees PUNCH4NFDI. A Management Board, including task area and work package leaders, coordinates and monitors progress and resource allocation/usage. An external Science Advisory Committee of physicists and computer scientists provides advice on ongoing and future developments. An elected User Committee ensures feedback and input from the user side regarding the scientific directions of the project and the services offered. An Infrastructure Control Board is responsible for synchronizing the top-level requirements and deliverables with the national and international data providers\[7\].
+
+### Section
+
+The National Research Data Infrastructure (NFDI) is a German initiative designed to systematically manage scientific and research data, provide long-term data storage, backup and accessibility, and network the data both nationally and internationally. The NFDI is developed step by step and science-oriented with services available to researchers from various disciplines, institutions, and federal states.
+
+Within the NFDI, there are specific sections where association members work together to develop cross-consortium standards, metadata standards, and formats. These sections are legally dependent departments of the NFDI Association, and they work on cross-sectional topics across the boundaries of the consortia. The establishment of these sections is a strategy-led process initiated by the NFDI Directorate and the NFDI Consortium Assembly.
+
+Five sections have been established:
+
+1.  Common Infrastructures (section-infra)
+2.  Ethical, Legal and Social Aspects (section-ELSA)
+3.  (Meta)data, Terminologies, Provenance (section-metadata)
+4.  Training & Education (section-edutrain)
+5.  Industry Engagement (section-industry) \[1\]
+
+Each section focuses on different aspects of research data management. For instance, the (Meta)data, Terminologies, Provenance section supports processes of the NFDI consortia in jointly developing and establishing common data and metadata standards as a foundation for effective reuse of research data in accordance with FAIR principles. This section also addresses issues of (meta)data harmonization, discoverability of data, general data and metadata standards, format conversions, and persistent identifier systems.
+
+The Training & Education section, on the other hand, provides an overview of various training materials and further training measures/events in research data management in all disciplines in German-speaking countries.
+
+The NFDI is governed by a Board of Trustees, a Scientific Senate, and a Directorate. The Board of Trustees is the administrative-strategic supervisory body of the NFDI Association. The Scientific Senate is the central strategic body of the NFDI, advising on all fundamental matters relating to the ongoing development of the national research data infrastructure. The Directorate, located in Karlsruhe, consists of a full-time director and a managing office. The Directorate coordinates the work and activities of NFDI consortia on cross-disciplinary topics.
+
+## ERUM
+
+ErUM-Data-Hub, funded by the Federal Ministry of Education and Research (BMBF), is a central networking and transfer office for the digital transformation in the exploration of universe and matter (ErUM). The main aims of the ErUM-Data-Hub are to network ErUM communities, identify and exploit synergies in ErUM-Data-projects in the field of digitalization, communicate research results to target groups, and facilitate knowledge and innovation transfer. Additionally, the ErUM-Data-Hub provides a diversified further education offer in the field of digital competence\[1\].
+
+ErUM, which stands for "Erforschung von Universum und Materie," involves about 20,000 scientists in Germany who are engaged in the exploration of the universe and matter using large-scale equipment. German ErUM research is organized in 8 ErUM committees, which coordinate and represent the interests of the different research areas\[1\].
+
+As part of the ErUM-Data Plan of Action, the ErUM Data Hub pursues the overarching goal of digital transformation in fundamental ErUM-Pro research. In close coordination with the ErUM communities, the Hub implements the strategic measures of the ErUM Data Action Plan\[1\].
+
+The ErUM-Data-Hub also organizes various events and workshops, such as the "Deep Learning School 'Basic Concepts'" aimed at deep-learning starters from all ErUM communities who have a basic knowledge of physics\[4\].
+
+In terms of research, progress in fundamental research on universe and matter (ErUM) is made by studying structures at smaller and smaller scales. The high resolution of modern instruments in particle, hadron and nuclear, and astroparticle physics results in huge amounts of research data. To address the challenge of increasing data rates and volumes, 17 partners from universities and research centers joined forces in the BMBF funded ErUM Data pilot project Innovative Digital Technologies for Research on Universe and Matter\[2\].
+
+## Helmholtz
+
+### DMA (Data Management and Analysis)
+
+Helmholtz DMA, or Data Management and Analysis, is a research initiative within the Helmholtz-Zentrum Dresden-Rossendorf (HZDR). The primary objective of Helmholtz DMA is the implementation of a comprehensive digitization strategy for the Research Field MATTER. This involves the development, application, provision, and integration of innovative digital solutions for handling and analyzing the extreme volumes and rates of complex data coming from machines, experiments, and simulations. The initiative also focuses on the research and application of artificial intelligence for knowledge extraction from experiments and simulations, and the application of frontier technologies such as exascale computing and quantum computing to model complex states of matter\[1\]\[4\].
+
+Helmholtz DMA is strongly aligned with the overall activities of the topic, with strong integration with the activities in the topic "Accelerator Research and Development" and the topic "Matter -- Dynamics, Mechanisms and Control" in the program MML\[1\]. The DMA initiative also creates synergies in Matter between Helmholtz Centers & Facilities, Research Programs (MU,MML,MT), and Science Domains. It develops open, shareable solutions for Matter, including open source, modular solutions, open standards, professional, industry-grade software development, and F.A.I.R. Data\[4\].
+
+In addition to its research activities, Helmholtz DMA also organizes various events and workshops, such as the "Research Data Management - Experts Workshop. Synergies between NFDI (including DAPHNE4NFDI), ErUM-Data and Helmholtz-DMA" that took place in Bonn in March 2023\[3\].
+
+### HMC (Helmholtz Metadata Collaboration)
+
+The Helmholtz Metadata Collaboration (HMC) is an initiative within the Helmholtz Association that aims to promote the qualitative enrichment of research data through metadata. HMC develops and implements novel concepts and technologies for sustainable handling of research data through high-quality metadata. Its main goal is to make the depth and breadth of research data produced by Helmholtz Centres findable, accessible, interoperable, and reusable (FAIR) for the whole science community\[1\].
+
+HMC is organized into several hubs, each focusing on a specific research field. These hubs pool scientific expertise on metadata and provide advice and infrastructure services for storing, reusing, and exchanging metadata. The work of HMC is always embedded in the national and international context, and it aims to keep research data "alive" by making it accessible and usable to interested parties in various disciplines\[6\].
+
+## Data Project with RDM
+
+### Big Bang to Big Data (B3D)
+
+The B3D project is an interdisciplinary collaboration between universities and research institutions in North Rhine-Westphalia (NRW), Germany. It aims to create a prosperous network of experts in astrophysics and data science. The project uses powerful analysis and visualization techniques, sustainable technology, and infrastructure to develop solutions for the upcoming challenges of the next generation of astronomical observatories. This is done in close collaboration with other leading academic and industrial partners\[2\].
+
+One of the main goals of the B3D project is to generate synergies between different areas of research and to provide a joint research-oriented training program in future technologies that can be applied to astronomical research and beyond\[2\]. The project also aims to develop new measures for the qualification of young scientists\[3\].
+
+A central component of the B3D project is the development of innovative traversers using artificial intelligence and machine learning. These tools are used to systematically manage and analyze the immense flood of data to ensure better understanding\[3\].
+
+In terms of Research Data Management (RDM), the B3D project is a prime example of how RDM principles can be applied to handle and analyze large volumes of data in a scientific context. Effective RDM is a key component of research integrity and reproducible research, and its importance is increasingly recognized in data-intensive fields like radio astronomy\[6\].
+
+### SFB 1601
+
+SFB 1601 is a collaborative research center that focuses on the study of the interstellar medium, star formation, and the evolution of galaxies. The project Inf - SFB 1601: RDM services and research product exchange is a part of this collaborative research center and aims to establish an interconnected infrastructure that ensures the documentation, preservation, and quality assessment of data and procedures. This infrastructure allows project partners to select and use the RDM services most suitable for their own needs, exchange research products (data, procedures, code, etc.) efficiently and transparently, and make all relevant scientific data accessible within the CRC and to the astronomical community as a whole.
+
+The CRC research is based on four pillars: instrumentation, observations, 3D simulations, and laboratory astrophysics. This implies data and workflows of different types and specifications, which require different research data management (RDM) and research software management (RSM) solutions. The project aims to cover the gaps in RDM within the four pillars that were identified in the needs assessment and classified into three categories:
+
+1.  Documentation & legal aspects,
+
+2.  RDM/RSM support along the data-life cycle,
+
+3.  Skills development & Cooperation.

@@ -1,0 +1,73 @@
+# Data Policies in Astrophysics
+
+Data policies in astrophysics have been developed to ensure the responsible management, sharing, and utilization of astronomical data. These policies establish guidelines and practices that govern various aspects of data handling, including collection, storage, access, and dissemination. They play a crucial role in promoting transparency, collaboration, and the advancement of scientific research in the field of astrophysics.
+
+The formulation of these policies is based on a comprehensive evaluation of existing German research data (RD) policies, a comparison with international recommendations for RD policy development, as well as expert interviews conducted with German universities and a technical college. This process has allowed for the subdivision of key questions and text modules according to the RD policy scheme.
+
+The key questions posed during the policy development process draw insights from the evaluation of German RD policies, ensuring alignment with best practices. Additionally, international recommendations for RD policy creation have been taken into account to ensure the policies are robust and globally relevant. Expert interviews with German experts from universities have provided valuable input and perspectives.
+
+By incorporating these key questions and text modules into the data policies, the astrophysics community can establish a comprehensive and effective framework for managing research data. This will facilitate data transparency, collaboration, and adherence to best practices, ultimately driving advancements in the field of astrophysics.
+
+## Content of the Data policies
+
+@article{hiemenz2018empfehlungen, title={Empfehlungen zur Erstellung institutioneller Forschungsdaten-Policies. Das Forschungsdaten-Policy-Kit als generischer Baukasten mit Leitfragen und Textbausteinen f{"u}r Hochschulen in Deutschland}, author={Hiemenz, Bea and Kuberek, Monika}, year={2018} }
+
+**1 Preamble**
+
+-   1.1 Aim of the institution, importance of the RDM
+
+-   1.2 Standards and principles relating to RDM
+
+**2 Scope**
+
+-   2.1 Range
+
+-   2.2 Relationship to legal requirements/ contracts with third parties
+
+**3 Legal/Ethical Aspects**
+
+-   3.1 Ownership of rights/rights of use
+
+-   3.2 Data protection
+
+-   3.3 Transfer of rights
+
+**4 Handling Of Research Data**
+
+-   4.1 Basic principles
+
+-   4.2 Data selection
+
+-   4.3 Access/Licensing
+
+-   4.4 Storage time/storage duration
+
+**5 Responsibilities - Researchers**
+
+-   5.1 Researchers
+
+-   5.2 Principles RDM
+
+-   5.3 Data Management Plan (DMP)
+
+-   5.4 Project Regulations
+
+**6 Responsibilities - Institution**
+
+-   6.1 Infrastructure
+
+-   6.2 Consulting/Education/Training
+
+-   6.3 Cooperation
+
+**7 Validity**
+
+-   7.1 Validity/Review
+
+-   7.2 Contact
+
+**8 Annex/Glossary (definitions, references)**
+
+-   8.1 Definitions
+
+-   8.2 Reference to related documents

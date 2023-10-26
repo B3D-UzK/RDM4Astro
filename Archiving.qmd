@@ -1,0 +1,111 @@
+## **Preservation Foundations**
+
+### Why Archive Data?
+
+-   Archiving digital data is crucial for long-term accessibility and usability.
+
+-   Trustworthy repositories can provide strategies to preserve data authenticity and integrity.
+
+-   Understanding preservation needs, authenticity, integrity, and metadata is important.
+
+-   Digital data are at risk due to benign neglect, bit rot, obsolescence, and insufficient documentation.
+
+-   Bit rot is the degradation or corruption of machine-readable information over time.
+
+-   Obsolescence occurs when hardware or software becomes outdated and data becomes trapped.
+
+-   Insufficient documentation makes it impossible to interpret data in the future.
+
+-   Complete and appropriate documentation and metadata are essential for long-term data preservation.
+
+### Authenticity and Integrity
+
+-   Preservation of digital content aims to ensure authenticity and integrity
+
+-   Authenticity means the data is genuine and free from tampering
+
+-   Establishing authenticity requires both researchers and data repositories to have procedures and documentation in place
+
+-   Best practices for maintaining authenticity include maintaining a single master file, regulating write access, recording all changes, and archiving copies of master files
+
+-   Integrity means the digital object has not been corrupted over time or in transit between storage locations or systems
+
+-   Best practices for maintaining integrity include backing up critical files, storing master files in open source formats, verifying backup copies, storing copies on two types of storage media, and copying/migrating files to new storage media every 2-5 years
+
+-   Technology has increased our ability to collect and analyze data but also has vulnerabilities, requiring an active preservation strategy based on standards and best practices.
+
+### Metadata
+
+-   Metadata is structured information that describes, explains, locates, or represents something else and is necessary for resource discovery, organization, interoperability, identification, and preservation.
+
+-   There are three types of metadata: descriptive, administrative, and structural.
+
+-   Descriptive metadata is used for discovery and identification, including information such as title, author, and abstract.
+
+-   Administrative metadata is structured information regarding the management and tracking of data over time and can be rights management or preservation metadata.
+
+-   Structural metadata describes the physical or logical structure of digital objects.
+
+-   Metadata standards often require adherence to specific representation rules and controlled vocabularies to ensure consistency in data entry and authoritative use of terms.
+
+-   Good standardized metadata allows for interoperability across systems, data structures, and interfaces, and facilitates the efficient dissemination of digital materials.
+
+-   The open archive initiative protocol for metadata harvesting (OAI-PMH) is an example of how standardized metadata can be shared across distributed systems.
+
+## **Trustworthy Repositories**
+
+### Demonstrating Trustworthiness
+
+-   Trustworthy repositories are crucial for the long-term preservation of data.
+
+-   Data repositories oversee the long-term storage and preservation of data and come in different types, including domain, institutional, and location-specific.
+
+-   It's important to talk to repository staff early in the research data life cycle to understand specific data management requirements.
+
+-   To ensure the trustworthiness of a repository, they must demonstrate compliance with standards and best practices through transparent policies and seek audit and certification.
+
+-   Adhering to standards and best practices is essential to achieving trustworthiness.
+
+-   Transparent policies and procedures are necessary for repositories to demonstrate their trustworthiness, and they should make their archival and digital preservation policies readily available to stakeholders.
+
+-   The Data Seal of Approval, DRAMBORA, and ISO 16363 Audit and Certification of Trustworthy Digital Repositories are examples of audit schemes used to assess the trustworthiness of digital repositories based on adherence, standards, and best practices.
+
+### Data Curation Standards and Best Practices (Part 1)
+
+-   ISO 14721 is a reference model for an open archival information system (OAIS).
+
+-   OAIS defines elements and processes within digital repositories, and establishes responsibilities for long-term preservation of digital information.
+
+-   Repositories that consider themselves to be OAIS archives are presumed to have mechanisms and workflows in place to properly safeguard digital materials for a designated community.
+
+-   OAIS model has six functional entities: Ingest, Archival Storage, Data Management, Administration, Preservation, and Access.
+
+-   Ingest function performs several tasks to establish evidence of authenticity, ensure files are in proper formats, and normalize files to formats optimal for long-term preservation.
+
+-   Standard ingest procedures include consideration of sustainability and use factors that affect feasibility and cost of long-term file preservation.
+
+-   Preservation optimization presumes that supplementary documentation is included with the file to enable appropriate interpretation and use of the data.
+
+-   Once ingest tasks have been completed, the SIP becomes an AIP which is managed by the archival storage function.
+
+-   Data management function provides functionality for generating, maintaining, and accessing metadata to document files housed in archival storage.
+
+-   Access function coordinates requests and delivers the final dissemination information package (DIP) to users who can retrieve data files.
+
+### Data Curation Standards and Best Practices (Part 2)
+
+-   Preservation planning function provides recommendations for preservation and planning strategies to ensure that data are accessible and understandable to users over time.
+
+-   Migration and emulation are common preservation strategies to protect against data loss due to obsolescence.
+
+-   Preservation planning involves ongoing evaluation of archival materials to identify file migration requirements, recommend changes to archive processes and policies, and report any risks.
+
+-   Administration function handles data submission agreements with data producers, establishes quality standards, and manages infrastructure configurations.
+
+-   Trustworthy repositories have short-term and long-term business plans for sustainability with transparent accounting practices, and they analyze and document financial risks, investments and expenditures.
+
+-   Storing copies of digital content in geographically distributed locations and collaborative partnerships can help protect against physical losses from disasters or organizational failure.
+
+-   Economics sustainability for long term preservation is an ongoing concern in the field of data archiving because the cost of long term preservation is still largely unclear.
+
+-   Trustworthy data repositories make a verifiable commitment to archiving data and expend significant amounts of labor, funding, research and assessment to safeguard data.

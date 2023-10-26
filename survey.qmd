@@ -1,0 +1,164 @@
+The FAIR principles, which stand for **Findable**, **Accessible**, **Interoperable**, and **Reusable**, are a set of guidelines proposed by a consortium of scientists and organizations to support the reusability of digital assets\[1\]. These principles are designed to ensure that data is easily located, retrieved, and used, and that the necessary metadata is provided to allow others to understand and reuse the data\[2\]. Here are questions that could be included in a survey for institutions working on astronomical data to assess their adherence to the FAIR principles:
+
+## Findable
+
+1.  Do you assign a unique and persistent identifier to each dataset?
+
+2.  Are your datasets easily discoverable through search engines or data discovery tools?
+
+3.  Do you provide detailed metadata for each dataset?
+
+4.  Is the metadata consistently structured and standardized?
+
+5.  Do you use community-accepted vocabularies in your metadata?
+
+6.  Are your datasets indexed in a searchable resource?
+
+7.  Do you have a system in place to ensure the persistence of dataset identifiers?
+
+8.  Do you use standard identifier schemes (e.g., DOI, ORCID) for your datasets?
+
+9.  Are your datasets and their metadata findable by machines (i.e., machine-readable)?
+
+10. Do you provide clear instructions on how to find your datasets?
+
+## Accessible
+
+1.  Are your datasets openly accessible online?
+
+2.  If your datasets are not openly accessible, do you provide clear and accessible information about how to access them?
+
+3.  Do you use standard protocols for data access?
+
+4.  Are your datasets accessible even when the data are no longer available?
+
+5.  Are your datasets accessible in a way that is compliant with relevant data protection and privacy regulations?
+
+6.  Do you provide an API for programmatically accessing your datasets?
+
+7.  Are your datasets accessible without proprietary software?
+
+8.  Do you provide support for users who have difficulty accessing your datasets?
+
+9.  Are your datasets and their metadata accessible by machines (i.e., machine-readable)?
+
+10. Do you provide clear instructions on how to access your datasets?
+
+## Interoperable
+
+1.  Do you use community-accepted vocabularies in your datasets?
+2.  Are your datasets compatible with other datasets in your field?
+3.  Do you provide metadata that allows for the integration of your datasets with other datasets?
+4.  Do you use standard data formats for your datasets?
+5.  Are your datasets and their metadata interoperable with other systems and platforms?
+6.  Do you use standard data models for your datasets?
+7.  Do you provide tools or services to facilitate data interoperability?
+8.  Are your datasets interoperable with common data analysis tools?
+9.  Are your datasets and their metadata interoperable by machines (i.e., machine-readable)?
+10. Do you provide clear instructions on how to integrate your datasets with other datasets?
+
+## Reusable
+
+1.  Do you provide a clear and accessible data usage license for each dataset?
+
+2.  Do you provide detailed provenance information for each dataset?
+
+3.  Are your datasets accompanied by comprehensive documentation?
+
+4.  Do you provide information about the data collection methods used for each dataset?
+
+5.  Do you provide information about the quality control procedures applied to each dataset?
+
+6.  Are your datasets reusable in different contexts?
+
+7.  Do you provide tools or services to facilitate data reuse?
+
+8.  Are your datasets reusable with common data analysis tools?
+
+9.  Are your datasets and their metadata reusable by machines (i.e., machine-readable)?
+
+10. Do you provide clear instructions on how to reuse your datasets?
+
+## General Questions
+
+1.  Do you have a data management plan that incorporates the FAIR principles?
+
+2.  Do you provide training or resources on the FAIR principles to your staff?
+
+3.  Have you encountered any challenges in implementing the FAIR principles?
+
+4.  How do you measure the success of your implementation of the FAIR principles?
+
+5.  Have you seen any benefits from implementing the FAIR principles?
+
+6.  Do you have any plans to improve your adherence to the FAIR principles?
+
+7.  Do you collaborate with other institutions to promote the FAIR principles?
+
+8.  Do you consider the FAIR principles when evaluating new data management tools or services?
+
+9.  How do you handle sensitive or personally identifiable information in accordance with the FAIR principles?
+
+10. How do you ensure the long-term preservation of your FAIR data?
+
+## FAIR Principles and Software
+
+1.  Do you develop software as part of your research?
+
+2.  Do you follow the FAIR principles when managing your software?
+
+3.  How do you ensure the findability of your software?
+
+4.  How do you ensure the accessibility of your software?
+
+5.  How do you ensure the interoperability of your software?
+
+6.  How do you ensure the reusability of your software?
+
+## FAIR Principles and Metadata
+
+1.  Do you follow the FAIR principles when managing your metadata?
+
+2.  How do you ensure the findability of your metadata?
+
+3.  How do you ensure the accessibility of your metadata?
+
+4.  How do you ensure the interoperability of your metadata?
+
+5.  How do you ensure the reusability of your metadata?
+
+## FAIR Principles and Data Sharing
+
+1.  Do you share your data with other researchers or institutions?
+
+2.  Do you follow the FAIR principles when sharing your data?
+
+3.  How do you ensure the findability of your shared data?
+
+4.  How do you ensure the accessibility of your shared data?
+
+5.  How do you ensure the interoperability of your shared data?
+
+6.  How do you ensure the reusability of your shared data?
+
+## FAIR Principles and Data Publication
+
+1.  Do you publish your data in data journals or repositories?
+
+2.  Do you follow the FAIR principles when publishing your data?
+
+3.  How do you ensure the findability of your published data?
+
+4.  How do you ensure the accessibility of your published data?
+
+5.  How do you ensure the interoperability of your published data?
+
+6.  How do you ensure the reusability of your published data?
+
+7.  Do you have any suggestions for improving the FAIRness of astronomical data?
+
+## References:
+
+\[1\] https://library.cumc.columbia.edu/insight/what-are-fair-data-principles
+
+\[2\] https://www.nature.com/articles/sdata201618

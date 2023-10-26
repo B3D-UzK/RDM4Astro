@@ -1,0 +1,37 @@
+# Electronic Lab Notebook (ELN)
+
+An Electronic Lab Notebook (ELN) is a digital tool that mimics the format of a paper lab notebook, allowing researchers to record protocols, observations, notes, and other data using their computer or mobile device. ELNs offer numerous benefits compared to traditional paper notebooks, such as promoting good data management practices, ensuring data security, facilitating auditing, and enabling collaboration. Certain ELNs can also manage inventories, track equipment maintenance schedules, and provide specialized scientific tools for tasks like chemical drawing or molecular biology.
+
+## Why should we use ELN ?
+
+ELNs align with FAIR Principles (Findable, Accessible, Interoperable, Reusable), endorsed by the research community and organizations like the National Institutes of Health. They enable effective oversight by Principal Investigators (PIs) or Core Facility managers. Collaborative data sharing and documentation become effortless with ELNs. They eliminate challenges arising from illegible handwriting and damaged paper notebooks. ELNs also safeguard against data loss when researchers transition. Certain ELNs integrate seamlessly with platforms like Mendeley, Dataverse, PubMed, and other applications, streamlining the publishing and research processes.
+
+## Using computers during experiments
+
+1\. Dedicated Tablets: Providing researchers with dedicated tablets specifically for lab use can help streamline computer-related tasks in the lab setting.
+
+2\. Voice Input or OCR Plugins: Utilizing voice input or optical character recognition (OCR) plugins can facilitate data entry, making it easier and faster to record observations and other experiment-related information.
+
+3\. Time-Saving Features: Leveraging time-saving features within an Electronic Lab Notebook (ELN), such as linking experiments to raw data files and results, and automatically timestamping entries, helps maintain data provenance and efficiency.
+
+4\. Integration with Research Software: Integrating the ELN with other research software enables seamless data capture and information management, simplifying the overall experimental process.
+
+## ELN software
+
+### Labguru
+
+Labguru is a comprehensive, cloud-based platform that combines features of an Electronic Lab Notebook (ELN), Laboratory Information Management System (LIMS), and informatics software. Designed for life science research and industry, Labguru offers a secure solution for managing laboratory data, inventory, and workflows.
+
+This platform includes molecular biology and chemistry tools, facilitating experimental design, data capture, and project management. With Labguru, scientists can create customizable experiment templates, integrate protocols and standard operating procedures (SOPs), and collaborate on research projects. The platform enhances data quality, streamlines workflows, and reduces costs.
+
+Labguru is accessible on both desktop and mobile devices through cloud-based access. It is a part of the Holtzbrinck Publishing Group and serves a diverse user base of over 120,000 scientists worldwide. Its users range from startups, universities, and research institutes to some of the largest pharmaceutical companies.
+
+### SciNote
+
+SciNote is an advanced cloud-based electronic lab notebook (ELN) that is trusted by prestigious organizations like the FDA, USDA, NIH, and the European Commission. It has a user base of over 90,000 scientists across 100 countries. SciNote stands out for its comprehensive features, including inventory management, compliance tools, and team management capabilities. It offers top-rated data management functionalities such as inventory tracking, protocol and SOP management, regulatory compliance, team collaboration, integrations, project management, and robust data security measures. With headquarters in Middleton, WI, USA, SciNote also has offices in Europe to serve its global community of users.
+
+### LabWare
+
+LabWare is a renowned global leader in laboratory information management systems (LIMS). With over 30 years of experience, LabWare has served more than 3,000 customers worldwide, including prestigious organizations such as NIH, USDA, GSK, Pfizer, Hershey, Caterpillar, and Chevron. LabWare boasts an impressive 98% customer satisfaction rate.
+
+LabWare's laboratory automation platform is designed to ensure data integrity, compliance, and accurate test results, ultimately leading to more efficient laboratory operations. Customers have the flexibility to choose between two options: the cost-optimized and fully validated LabWare SaaS LIMS or the industry-optimized and fully customizable LabWare LIMS/ELN. Both solutions cater to the specific needs of laboratories, offering advanced functionality and reliable performance.

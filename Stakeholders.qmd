@@ -1,0 +1,13 @@
+### Data Management Stakeholders
+
+-   The research lifecycle from the Data Documentation Initiative (DDI) provides a framework for understanding where specific data management practices fall.
+
+-   During the discovery and planning phase, researchers need to determine what type and format of data they are going to collect, consider ethical issues, and identify potential reusers of the project data. They should also determine the possible costs surrounding data management and identify appropriate data repositories.
+
+-   During the data collection phase, researchers should follow data management best practices, including file organization, backup and storage strategies, and quality assurance protocols. They should also consider access controls and data security.
+
+-   During the preparation and data analysis phase, researchers may need to clean, manipulate or process the raw data, and should document any changes to the raw data and create a master version to be analyzed and eventually archived. They should also document analysis procedures, such as modifications to the data, the model used, the code used to run the analysis, and hardware and software specifications.
+
+-   During the publication and sharing phase, researchers should prepare their data files and other research materials necessary to interpret and reuse the data in the future. They should consult with information professionals or data repository staff and ensure that their data management meets all of the needs and requirements of the repository.
+
+-   Trusted repositories perform functions to ensure the long-term management of data, including ensuring the integrity of the data, protecting against data loss, and providing access to data.

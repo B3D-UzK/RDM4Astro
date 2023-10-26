@@ -1,0 +1,54 @@
+project:
+  type: website
+
+website:
+  title: "RDM 4 Astro"
+  navbar:
+    right:
+      - href: index.qmd
+        text: RDM 4 Astro
+
+      - text: For Research Project
+        menu:
+            - href: DataPolicies.qmd
+              text: Data Policies
+            - href: Stakeholders.qmd
+              text: Stakeholders
+            - href: FundingAgencies.qmd
+              text: Funding Agencies   
+            - href: DataOwnership.qmd
+              text: Data Ownership           
+            - href: Networking.qmd
+              text: Networking              
+ 
+      - text: For Research
+        menu:
+          - href: DataManagement.qmd
+            text: Data Management        
+          - href: ELabNotebook.qmd
+            text: E-Lab Notebook  
+          - href: BestPractiesRDM.qmd
+            text: Best Practies in RDM  
+          - href: SharingData.qmd
+            text: Sharing Data
+          - href: Archiving.qmd
+            text: Archiving
+          - href: Training.qmd
+            text: Training
+          - href: FAIR Astro.qmd
+            text: FAIR in Astro            
+      - href: survey.qmd
+        text: FAIR Survey 
+
+          
+        
+
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+editor: visual
+

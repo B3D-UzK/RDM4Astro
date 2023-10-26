@@ -1,0 +1,189 @@
+## **Organizing Data**
+
+### Good File Management in Research
+
+-   The module introduces the concept of data organization and good file management practices.
+
+-   Data organization is important because as the research project progresses, a large volume of data is accumulated, and it can be difficult to find specific data files if they are named inaccurately or inconsistently.
+
+-   Good file management practices help identify, locate, and use data effectively, and file naming conventions are important when sharing data with collaborators.
+
+-   Research data files and folders need to be labeled and organized in a systematic way to be identifiable and accessible for current and future users.
+
+-   Consistent data filing labeling has numerous benefits, including distinguishable data files, easier browsing and retrieval, logical sorting, and prevention of accidental deletion or overwrite.
+
+-   Good data file naming prevents confusion when multiple people are working on shared files.
+
+### File Naming
+
+-   Three main criteria to consider when naming research data files:
+
+    -   organization,
+
+    -   context, and
+
+    -   consistency.
+
+-   Common elements to consider when developing a file naming strategy include version number, date of creation, creator's name, content description, team or department name, publication date, and project number.
+
+-   File naming policy should be scalable and avoid generic names to prevent conflicts.
+
+-   File names should be kept short, relevant, and consistent in format, and should not use special characters.
+
+-   Batch renaming software can be used to manage large numbers of files and automate consistent naming conventions.
+
+-   Bulk renaming tools are available for different operating systems, and can be useful in situations such as assigning sequential numbers, using default names, or transferring files between systems with different naming conventions.
+
+### Versioning
+
+-   Distinguish between different versions of data files consistently
+
+-   Pick a clear versioning method (e.g. using ordinal numbers and decimals)
+
+-   Avoid confusing labels such as revision, final, final2, or definitive copy
+
+-   Record changes to data files, even small ones, using auto backup or tracking facilities
+
+-   Use version control software such as Subversion and TortoiseSVN for software code
+
+-   Delete or discard obsolete versions of data files while retaining original copies
+
+-   Further resources are available for additional information
+
+-   Move on to the data file formats module as the next step.
+
+## **File Formats and Transformations**
+
+### File Formats
+
+-   This module covers file formats, compression, data normalization, and transformations.
+
+-   File formats encode information in a computer file, and software needs to recognize that format to access the content within it.
+
+-   The file format is indicated by an extension in the file name, and files in proprietary formats may require specific software to open them, while open formats can be opened by multiple applications.
+
+-   File types are based on text or binary encoding, and creating or saving data in a text format makes the file human-readable and able to be opened in any operating system.
+
+-   Open, non-proprietary, and widely used file formats are less likely to become obsolete and more likely to be readable well into the future.
+
+-   Converting or migrating data files from one format to another may be necessary, and checksum algorithm tools can be used to compare file bits and ensure data integrity.
+
+-   Compression involves encoding information in fewer bits than the original representation and can result in lossy or lossless compression.
+
+-   Zip is a de facto standard lossless compression format used on multiple platforms, while tar files are commonly used in Unix or Linux to bundle multiple files.
+
+### Data Transformations
+
+-   Data transformations can be done for various reasons during or after a project
+
+-   Data transformations involve changing the actual data
+
+-   Anonymization is an example of a data transformation that can be used in survey data
+
+-   Qualitative data can be transformed into quantitative data using coding techniques
+
+-   Data can be transformed to visualize it more effectively, such as converting ratios to percentages for display on charts
+
+-   Confidential or sensitive data can be transformed using aggregation or anonymization
+
+-   Further reading resources are available for file formats, compression, normalization, and data transformations
+
+-   The next module on documentation and data citation is recommended
+
+## **Documentation and Data Citation**
+
+### Documentation
+
+-   This module covers documentation and data citation.
+
+-   Documentation is important for both the creator and other users to understand the data.
+
+-   Examples of data documentation include lab notebooks, codebooks, and methodology reports.
+
+-   There are three levels of data documentation: project level, file/database level, and variable/item level.
+
+-   Proper data citation is important for the credibility and accessibility of research findings.
+
+-   Data citation should include information on how to access the underlying data.
+
+### Data Citation
+
+-   The Joint Declaration on Data Citation Principles was issued in 2014 by Force11.
+
+-   Citing data helps identify and acknowledge it, promote reproducibility, track usage and impact, and recognize and reward data creators.
+
+-   DataCite recommends five minimum citation elements: creator, year of publication, title, publisher, and identifier.
+
+-   Additional elements that may be added are Version and ResourceType.
+
+-   The UK data service recommends using a title that indicates subject matter, geography, and time period.
+
+-   When citing data, adopt the same style and order of references as your other works, provide more information than less, and include a date of download for dynamic databases.
+
+-   Good practice in data documentation and citation contributes to reproducibility of research.
+
+-   Even if the data are unpublished, citation principles still apply.
+
+-   Further reading and a next module on storage and security are available.
+
+## **Storage and Security**
+
+### Storage
+
+-   This module focuses on storing, securing, and backing up research data.
+
+-   Losing data can have serious consequences, and hard disk drive crashes are the most common cause of data loss.
+
+-   It's important to store and back up data securely from the outset, and to plan for storage needs and data management costs.
+
+-   Network drives are highly recommended as they provide a single copy of data that is backed up regularly and held securely.
+
+-   PCs, laptops, and external storage devices can also be used but should not be used as the master copy of data.
+
+-   CDs, DVDs, and magnetic tapes degrade over time, and errors writing to them are common, so high-quality products from good manufacturers should be used and periodically refreshed.
+
+### Backup
+
+-   Regular backups are essential for data management to prevent loss due to hard drive failure or accidental deletion.
+
+-   The 3-2-1 principle of backup involves having three copies of files on at least two different media, with one copy stored offsite.
+
+-   Regular testing of backups is crucial to ensure they can be restored if needed.
+
+-   Several questions should be considered when creating a backup strategy, such as how to back up data, how often to back up data, whether to use incremental or full backups, and how to keep track of different versions of data.
+
+-   Various cloud services are available for data backup, including Dropbox, Google Drive, and OneDrive.
+
+-   Advantages of cloud services for backup include no user intervention required, remote offsite backup, encryption and versioning, and multi-platform support.
+
+-   Risks of using cloud services for backup include data stored outside the European economic area, slow data restoration, unencrypted data, and service provider bankruptcy.
+
+### Data security
+
+-   Data security means keeping your research data safe from damage, theft, breach of confidentiality, and premature release.
+
+-   Consider who needs access to the data and how to enforce permissions and restrictions.
+
+-   Have a clear policy on who can make copies of the data and store them on mobile devices.
+
+-   Install up-to-date antivirus software and consider physical security for highly sensitive data.
+
+-   Use strong user names and passwords, avoid obvious phrases, don't write them down, and don't use the same password for multiple accounts.
+
+-   Avoid signing into secure sites from untrusted computers or networks.
+
+### Encryption
+
+-   Encryption is the process of converting data into an unreadable code that requires an encryption key or password to be accessed.
+
+-   Encryption protects data from disclosure in case of loss or theft of a laptop or storage device.
+
+-   Medium or high-risk personal or business information must be encrypted if it leaves the university environment.
+
+-   A strong encryption password is necessary for data protection, and a reliable backup procedure is essential for password management.
+
+-   Different encryption software packages are available, and IT support can advise on encrypted flash drive purchases.
+
+-   File deletion is not enough to remove sensitive data from a computer, and three main options for permanent data removal include data erasure, degaussing, and physical destruction.
+
+-   Further reading and resources are available for storage, backup, and security.
